@@ -1,0 +1,325 @@
+@import url(./color.css);
+@import url(../../fonts/Roboto/Raboto.css);
+.mail-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.inbox-outbox {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-family: Roboto !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+.inbox-outbox a:nth-child(1) {
+  margin-right: 9px;
+}
+.inbox-outbox a:nth-child(2) {
+  margin-left: 9px;
+}
+.inbox-outbox a {
+  color: black;
+}
+.compose {
+  margin-left: auto;
+}
+.compose button {
+  padding: 7px 30px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white-color) !important;
+  text-align: left;
+  background-color: var(--primary-color);
+}
+.compose button:hover {
+  color: var(--black-color) !important;
+
+  border: 1px solid var(--primary-color);
+}
+
+.mail-box-content table tr:nth-child(1) label {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.13px;
+  color: var(--Sapphire-color);
+}
+
+.mail-box-content table tr td label {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  color: var(--Sapphire-color);
+}
+
+.mail-box-content td {
+  border-color: var(--white-smoke) !important;
+  border-style: hidden !important;
+  border-width: none !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+
+.page-option {
+  width: 10% !important;
+}
+.go-to {
+  width: 6% !important;
+}
+.navigation-section ul {
+  margin-bottom: 0px !important;
+}
+.pagination {
+  vertical-align: middle;
+}
+.pagination-section {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pagination-section span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  /* text-align: left; */
+}
+.pagination li a {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  color: var(--black-color);
+}
+
+/* Inbox Reply Css */
+.mail-reply-heading span {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.26px;
+  color: var(--save-button);
+}
+.reply-box{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.from-email-name label:nth-child(1){
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.48px;
+ color: var(--Sapphire-color)!important;
+
+}
+.from-email-name p{
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+ color: var(--Sapphire-color)!important;
+ margin-bottom: 0px !important;
+
+}
+.from-email-message p{
+  font-family: Raleway;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.13px;
+/* text-align: left; */
+color: var(--Sapphire-color);
+margin-left: 85px;
+margin-top: 12px;
+
+
+
+}
+.from-email-message a{
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  /* line-height: 21.13px; */
+  text-align: left;
+  color: var(--Sapphire-color);
+  text-decoration: underline!important;
+cursor: pointer;
+}
+.from-email-message button{
+  font-family: Raleway;
+font-size: 20px;
+font-weight: 700;
+line-height: 23.48px;
+/* text-align: left; */
+border:1px solid var( --suva-grey );
+margin-left: 85px;
+margin-top: 12px;
+padding: 7px 30px 7px 30px;
+}
+
+.from-email-message button:hover{
+  font-family: Raleway;
+font-size: 20px;
+font-weight: 700;
+line-height: 23.48px;
+/* text-align: left; */
+border:1px solid var( --suva-grey );
+margin-left: 85px;
+margin-top: 12px;
+}
+.reply-revert-section{
+  margin-left: 85px;
+}
+.new-mail-button-revert button:nth-child(1){
+margin-left: 85px;
+}
+/* Compose Email */
+.compose span {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.26px;
+  text-align: left;
+  color: var(--save-button);
+}
+.subject-section input {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.48px;
+  color: var(--spanish-gray);
+  height: 44px;
+}
+.upload-file-custom span {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  color: var(--black-color);
+}
+.upload-file-custom span:nth-child(2) {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  color: var(--black-color);
+  text-decoration: underline !important;
+  margin-top: 12px;
+}
+
+.reply-section {
+  position: relative;
+}
+.upload-file-custom {
+  position: absolute;
+
+  right: 20px;
+  bottom: 9px;
+}
+.new-mail-button button:nth-child(1) {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.48px;
+  text-align: left;
+  color: var(--black-color);
+  border: 1px solid var(--suva-grey) !important;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.new-mail-button button:nth-child(2) {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.48px;
+  text-align: left;
+  padding-left: 41px;
+  padding-right: 41px;
+  margin-left: 10px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.pagination .dt-paging-button{
+  padding: 0.1em 0.1em!important;
+}
+
+
+.pagination .active{
+  background:white!important ;
+  border:none!important;
+}
+.pagination .active a{
+  background:white!important ;
+  color: blue!important;
+}
+
+.pagination li a :hover{
+  /* color: var(--white-color)!important; */
+  border: none!important;
+}
+.pagination .active :hover{
+  /* color: var(--white-color)!important; */
+  border:1px solid blue!important;
+}
+.pagination li {
+  border: none!important;
+}
+.pagination li :hover{
+  border: none!important;
+  box-shadow: 0px!important;
+  outline: none;
+}
+.pagination li a :hover{
+  border: none!important;
+  box-shadow: 0px!important;
+  outline: none;
+}
+.dt-info{
+  font-family: Roboto !important;
+}
+.dt-length {
+  font-family: Roboto !important;
+}
+.dt-paging-button :hover{
+  /* background: black!important; */
+  border: 1px solid #fff!important;
+  outline: none;
+}
+.dt-paging-button a :hover{
+  /* background: black!important; */
+  border: none!important;
+  outline: none;
+}
+div.dt-container .dt-paging .dt-paging-button:hover{
+  background-color: white!important;
+  border:1px solid black!important;
+  /* background: none!important; */
+  background: linear-gradient(to bottom, white 0%, white 100%)!important;
+}
+.page-link :hover{
+  border-color:none!important
+}
+.dt-search input{
+  font-family: Raleway;
+  font-size: 16px;
+}

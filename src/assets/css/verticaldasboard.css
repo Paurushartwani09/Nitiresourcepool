@@ -1,0 +1,159 @@
+@import url(./color.css);
+
+.resource-status,
+.requirement-status {
+  background-color: var(--white-smoke);
+  border-radius: 8px;
+  padding: 24px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0fr auto;
+}
+.resource-heading,
+.requirement-status label {
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.87px;
+  text-align: left;
+}
+.resource-data-status select {
+  width: 50%;
+  display: block;
+  background: var(--pale-red);
+  border-color: var(--primary-color) !important;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: left;
+}
+.requirement-data-status select {
+  width: 40%;
+  display: block;
+  background: var(--pale-red);
+  border-color: var(--primary-color) !important;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: left;
+}
+
+.position-table table th {
+  background: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.13px;
+  text-align: left;
+  color: var(--black-color);
+}
+.position-table table td {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25.83px;
+  text-align: left;
+
+  color: var(--Sapphire-color);
+}
+
+.position-table table td span {
+  font-family: Raleway;
+  font-weight: 400;
+  /* line-height: 25.83px; */
+  text-align: left;
+  background-color: var(--pale-red);
+  color: var(--black-color);
+  padding: 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.position-table,
+.requirement-table td {
+  border-color: var(--white-smoke) !important;
+  border-style: hidden !important;
+  border-width: none !important;
+}
+.position-table tr:nth-child(even) td {
+  background-color: #f7f7f7 !important;
+}
+.position-table tr:nth-child(odd) td {
+  background-color: var(--red-light) !important;
+}
+
+.position-table tr td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.requirement-table table td span {
+  font-family: Raleway;
+  font-weight: 400;
+  /* line-height: 25.83px; */
+  text-align: left;
+  background-color: var(--pale-red);
+  color: var(--black-color);
+  padding: 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.requirement-table table th {
+  background: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.13px;
+  text-align: left;
+  color: var(--black-color);
+}
+.requirement-table table td {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  vertical-align: middle;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25.83px;
+  text-align: left;
+
+  color: var(--Sapphire-color);
+}
+.requirement-table tr:nth-child(even) td {
+  background-color: #f7f7f7 !important;
+}
+.requirement-table tr:nth-child(odd) td {
+  background-color: var(--red-light) !important;
+}
+.requirement-table a label {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  text-align: left;
+  color: var(--Sapphire-color);
+  text-decoration: underline;
+}
+.new-req-btn{
+    font-family: Raleway!important;
+    font-size: 20px!important;
+    font-weight: 700!important;
+    line-height: 23.48px!important;
+    text-align: left!important;
+    background-color: var(--primary-color)!important;
+    color: var(--white-color)!important;
+    border-color:  var(--primary-color)!important;
+    float: right;
+}
+.view-req-btn{
+    font-family: Raleway!important;
+    font-size: 20px!important;
+    font-weight: 700!important;
+    line-height: 23.48px!important;
+    text-align: left!important;
+    background-color: var(--Gray31-color)!important;
+    color: var(--white-color)!important;
+    border-color: var(--Gray31-color)!important;
+    float: right;
+}

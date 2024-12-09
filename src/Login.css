@@ -1,0 +1,468 @@
+@import url(././assets/css/color.css);
+@import url(../src/fonts/Lato/Lato.css);
+
+.login-page-row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  height: 100vh;
+}
+.img-section img {
+  width: 241px !important;
+  height: 113px !important;
+  margin-top: 12px;
+  opacity: 0px;
+}
+.left-side-container{
+  margin: auto;
+}
+.left-side-col {
+  background-color: var(--red-light-color);
+  /* height: 100vh; */
+}
+.text-section {
+  margin-top: 15px;
+}
+.text-section h1 {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49.31px;
+
+  color: var(--light-black);
+}
+.text-section p {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 45.31px;
+  margin-bottom: 0px !important;
+  color: var(--light-black);
+}
+.text-section label {
+  color: var(--primary-color) !important;
+}
+.about p {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+
+  color: (--black-color);
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.about {
+  flex: 1;
+}
+.footer-section {
+  margin-top: auto;
+  /* background-color: #f1f1f1; */
+  /* padding: 10px; */
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  /* */
+}
+.login-page-credentials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.credentials-input {
+  width: 60%;
+  margin: auto;
+}
+.label-login h1 {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49.31px;
+
+  color: var(--light-black);
+}
+.label-login label {
+  color: var(--primary-color) !important;
+}
+.credentials-input label {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+
+  color: var(--black-color);
+}
+.credentials-input input {
+  height: 44px;
+  border: 1px solid var(--black-color);
+  font-family: Raleway !important;
+}
+.forgot-pass {
+  text-align: end;
+}
+.forgot-pass a {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.13px;
+  color: var(--black-color);
+  text-decoration: underline !important;
+}
+.login-btn button {
+  width: 100%;
+  background-color: var(--primary-color);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.48px;
+  text-align: center;
+  color: var(--white-color);
+  height: 42px;
+}
+.login-btn button:hover {
+  /* background-color: var(--primary-color); */
+  border: 1px solid var(--primary-color);
+}
+.regrister label {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+
+  color: var(--black-color);
+}
+.regrister a {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.13px;
+
+  text-decoration: underline !important;
+  color: var(--black-color);
+}
+/* forgot password */
+
+.get-otp {
+  text-align: center;
+}
+.get-otp label {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+
+  color: var(--black-color);
+}
+.get-otp a {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.13px;
+
+  text-decoration: underline !important;
+  color: var(--black-color);
+}
+
+/* Register Page  */
+
+.register-text-section p {
+  margin-bottom: 0px !important;
+}
+.register-text-section:nth-child(1) {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 49.31px;
+  color: var(--light-black);
+}
+.register-text-section:nth-child(2) {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 49.31px;
+  color: var(--light-black);
+}
+.register-text-section label {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49.31px;
+  color: var(--primary-color) !important;
+}
+.leading-points label {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  color: var(--black-color);
+}
+.leading-points li {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  color: var(--black-color);
+}
+.create-account-credentials .form-group {
+  position: relative;
+}
+.create-account-credentials img {
+  position: absolute;
+  top: 44px;
+  left: 12px;
+}
+.create-account-credentials input {
+  padding-left: 12px;
+  padding-left: 36px;
+  height: 44px;
+  border: 1px solid var(--black-color);
+  font-family: Raleway !important;
+}
+.create-account-credentials .form-label {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  color: var(--black-color);
+}
+
+.login-btn-register button {
+  width: 40%;
+  padding: 12px;
+  gap: 0px;
+  text-align: center;
+  border-radius: 10px;
+
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.48px;
+
+  background-color: var(--primary-color);
+  color: var(--white-color) !important;
+}
+.login-btn-register button:hover {
+  border: 1px solid var(--primary-color);
+  color: var(--black-color) !important;
+  /* transition: 0.5s; */
+}
+.create-account-credentials .form-group {
+  margin-bottom: 15px;
+}
+.already-login label {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  color: var(--black-color);
+}
+.already-login a {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.13px;
+  color: var(--primary-color);
+}
+.left-side {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Media Query */
+/* Mobile Phones (portrait and landscape) */
+@media (max-width: 767.98px) {
+  .label-login h1 {
+    font-size: 35px;
+  }
+  .login-page-row {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-side-col,
+  .right-side-col {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-section img {
+    width: 200px !important;
+    height: 90px !important;
+  }
+
+  .text-section h1,
+  .text-section p {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .about p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .credentials-input {
+    width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .login-btn button,
+  .login-btn-register button {
+    font-size: 18px;
+    height: 40px;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .register-text-section:nth-child(1),
+  .register-text-section:nth-child(2) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .leading-points label,
+  .leading-points li {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .left-side-col {
+    display: none;
+  }
+  .login-page-credentials {
+    display: inline-block;
+  }
+  .login-ui {
+    display: flex !important;
+  }
+  .already-login {
+    padding-bottom: 20px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .img-section img {
+    width: 194px !important;
+    height: 95px !important;
+  }
+  .text-section {
+    margin-top: 15px;
+  }
+  .label-login h1 {
+    font-size: 33px;
+  }
+  .regrister label {
+    font-size: 15px;
+  }
+  .text-section h1,
+  .text-section p {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 0px;
+  }
+
+  .about p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 12px;
+  }
+
+  .credentials-input {
+    width: 75%;
+  }
+
+  .login-btn-register button {
+    font-size: 18px;
+    /* height: 40px; */
+    width: 50% !important;
+  }
+
+  .register-text-section:nth-child(1),
+  .register-text-section:nth-child(2),
+  .register-text-section label {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .leading-points label,
+  .leading-points li {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .leading-points {
+    margin-top: 12px;
+  }
+  .footer-section {
+    font-size: 10px;
+  }
+
+}
+
+/* Laptops and Desktops */
+@media (min-width: 992px) and (max-width: 1400px) {
+  .img-section img {
+    width: 197px !important;
+    height: 95px !important;
+  }
+
+  .register-text-section:nth-child(1),
+  .register-text-section:nth-child(2),
+  .register-text-section label {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .text-section h1,
+  .text-section p {
+    font-size: 34px;
+    line-height: 33.31px;
+    /* margin-top: 15px; */
+    margin-bottom: 0px !important;
+  }
+  .register-text-section {
+    margin-top: 12px;
+  }
+  .about p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .credentials-input {
+    width: 60%;
+  }
+
+  .login-btn button,
+  .login-btn-register button {
+    font-size: 20px;
+    height: 42px;
+  }
+
+  .leading-points {
+    margin-top: 12px;
+  }
+
+  .leading-points label,
+  .leading-points li {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .footer-section {
+    font-size: 13px;
+  }
+
+  .text-section {
+    margin-top: 15px;
+  }
+  .about {
+    margin-top: 12px;
+  }
+}
